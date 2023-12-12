@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Zadanie rekrutacyjne dla Cogitech{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1>Zadanie rekrutacyjne dla Cogitech</h1>
+    Lista postów / Wymagana autoryzacja [admin/admin]:
+    <ul>
+        <li><a href="/lista">/lista</a></li>
+    </ul>
+    API:
+    <ul>
+        <li><a href="/api">/api</a></li>
+    </ul>
+    Komendy systemowe:
+    <ul>
+        <li>app:getPosts</li>
+    </ul>
+</div>
+{% endblock %}
